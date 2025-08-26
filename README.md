@@ -26,10 +26,13 @@ Clone this repository:
 
 bash
 git clone https://github.com/yourusername/eri-calculator.git
+
 cd eri-calculator
+
 Install required dependencies:
 
 bash
+
 pip install pandas numpy scipy chardet
 
 Usage
