@@ -37,7 +37,7 @@ Comprehensive Output: Generates detailed results with intermediate calculations
 
 ## Usage
 ### Basic Command
-#### python eri_calculator.py -enzyme enzyme_data.tsv -otu otu_table.tsv -spc soil_properties.tsv -eco metabolic_data.tsv -group sample_groups.tsv -o results.tsv
+python eri_calculator.py -enzyme enzyme_data.tsv -otu otu_table.tsv -spc soil_properties.tsv -eco metabolic_data.tsv -group sample_groups.tsv -o results.tsv
 
 -enzyme: Enzyme activity data file (TSV format)
 
@@ -54,4 +54,4 @@ Comprehensive Output: Generates detailed results with intermediate calculations
 --debug: Enable debug mode (optional)
 
 ## An example dataset is provided in the example/ directory. To run the tool with the example data:
-#### python eri_calculator.py -enzyme example/enzyme_data.tsv -otu example/otu_table.tsv -spc example/soil_properties.tsv -eco example/metabolic_data.tsv -group example/sample_groups.tsv -o example_results.tsv
+python eri_calculator.py -enzyme example/enzyme_data.tsv -otu example/otu_table.tsv -spc example/soil_properties.tsv -eco example/metabolic_data.tsv -group example/sample_groups.tsv -o example_results.tsv
