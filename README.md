@@ -24,21 +24,20 @@ Robust Calculations: Includes error handling and normalization procedures
 
 Comprehensive Output: Generates detailed results with intermediate calculations
 
-Installation
------------
-## Clone this repository:
+## Installation
+### Clone this repository:
 
-### git clone https://github.com/yourusername/eri-calculator.git
+#### git clone https://github.com/yourusername/eri-calculator.git
 
-### cd eri-calculator
+#### cd eri-calculator
 
-## Install required dependencies:
+### Install required dependencies:
 
 ### pip install pandas numpy scipy chardet
 
 ## Usage
-## Basic Command
-### python eri_calculator.py -enzyme enzyme_data.tsv -otu otu_table.tsv -spc soil_properties.tsv -eco metabolic_data.tsv -group sample_groups.tsv -o results.tsv
+### Basic Command
+#### python eri_calculator.py -enzyme enzyme_data.tsv -otu otu_table.tsv -spc soil_properties.tsv -eco metabolic_data.tsv -group sample_groups.tsv -o results.tsv
 
 -enzyme: Enzyme activity data file (TSV format)
 
@@ -55,4 +54,4 @@ Installation
 --debug: Enable debug mode (optional)
 
 ## An example dataset is provided in the example/ directory. To run the tool with the example data:
-### python eri_calculator.py -enzyme example/enzyme_data.tsv -otu example/otu_table.tsv -spc example/soil_properties.tsv -eco example/metabolic_data.tsv -group example/sample_groups.tsv -o example_results.tsv
+#### python eri_calculator.py -enzyme example/enzyme_data.tsv -otu example/otu_table.tsv -spc example/soil_properties.tsv -eco example/metabolic_data.tsv -group example/sample_groups.tsv -o example_results.tsv
