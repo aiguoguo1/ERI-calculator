@@ -25,18 +25,20 @@ Robust Calculations: Includes error handling and normalization procedures
 Comprehensive Output: Generates detailed results with intermediate calculations
 
 Installation
-Clone this repository:
+-----------
+##Clone this repository:
 
-git clone https://github.com/yourusername/eri-calculator.git
-cd eri-calculator
+###git clone https://github.com/yourusername/eri-calculator.git
 
-Install required dependencies:
+###cd eri-calculator
 
-pip install pandas numpy scipy chardet
+##Install required dependencies:
 
-Usage
-Basic Command
-python eri_calculator.py \
+###pip install pandas numpy scipy chardet
+
+##Usage
+##Basic Command
+###python eri_calculator.py \
     -enzyme enzyme_data.tsv \
     -otu otu_table.tsv \
     -spc soil_properties.tsv \
