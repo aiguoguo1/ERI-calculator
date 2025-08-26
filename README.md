@@ -14,6 +14,7 @@ The final ERI is calculated as:
 ERI = 0.25 × (CSI + MSI + DSI + SHSI)
 
 Features
+
 Flexible Input: Automatically detects and handles various file encodings and formats
 
 Adaptive Processing: Works with any number of parameters and samples
@@ -21,17 +22,14 @@ Adaptive Processing: Works with any number of parameters and samples
 Robust Calculations: Includes error handling and normalization procedures
 
 Comprehensive Output: Generates detailed results with intermediate calculations
+
 Installation
 Clone this repository:
 
-bash
 git clone https://github.com/yourusername/eri-calculator.git
-
 cd eri-calculator
 
 Install required dependencies:
-
-bash
 
 pip install pandas numpy scipy chardet
 
